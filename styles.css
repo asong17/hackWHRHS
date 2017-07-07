@@ -1,0 +1,64 @@
+
+  	body {
+  background-color: #FFFFFF;
+}
+
+.navbar {
+  min-height: 60px;
+  line-height: 65px;
+}
+
+.brand {
+  height: 48px;
+  width: 48px;
+}
+
+.containerLogo {
+  position: relative;
+  height: 47em;
+}
+
+.hugeImage {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.col-picture {
+  margin-top: 4.8em;
+}
+
+li {
+	padding-left: 5.5em;
+	padding-right: 5.5em;
+}
+
+.firstRow {
+  margin-top: 8em;
+}
+
+.row {
+  margin-left: 8em;
+}
+
+.continued-rows {
+  padding-top: 5em;
+}
+
+.navbar-inverse .navbar-nav > .activated > a {
+  color: #ffffff;
+}
+
+.second-grid-picture {
+  margin-left: 8em;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 22.5px;
+    padding-bottom: 22.5px;
+    line-height: 20px;
+  }
+}
+
